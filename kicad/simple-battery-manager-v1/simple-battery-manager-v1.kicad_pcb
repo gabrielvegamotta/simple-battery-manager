@@ -12,7 +12,7 @@
 		(date "2024-04-03")
 		(rev "1.0")
 		(company "Gabriel Vega Engineering")
-		(comment 1 "Under Development")
+		(comment 1 "Finished")
 		(comment 2 "Gabriel Vega")
 		(comment 4 "1/1")
 	)
@@ -2053,7 +2053,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 0 1.9 270)
+			(at 0 1.9 -90)
 			(layer "F.Fab")
 			(uuid "c44e832d-4e72-4c38-a9c1-c83cfcc0d839")
 			(effects
@@ -2252,7 +2252,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "08420a61-efe8-4ad4-a583-bc2ca45a7c3c")
 			(effects
@@ -2404,7 +2404,7 @@
 			(uuid "c9ee9d61-4750-4f40-b396-40d045ae2797")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "fcadae8f-2290-45ab-86b0-f06fdd635f45")
 			(effects
@@ -3662,7 +3662,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 0 1.9 270)
+			(at 0 1.9 -90)
 			(layer "F.Fab")
 			(uuid "7fce27bb-9323-42ea-a808-e34f19e17a3f")
 			(effects
@@ -4053,18 +4053,6 @@
 				(thickness 0.1)
 			)
 			(justify right bottom mirror)
-		)
-	)
-	(gr_text "todo:\n\nconfirm pin spacing for breadboard"
-		(at 173 138 0)
-		(layer "F.SilkS")
-		(uuid "ae6527b7-decd-4fe9-8efb-c1a6ee86d60c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
 		)
 	)
 	(dimension
